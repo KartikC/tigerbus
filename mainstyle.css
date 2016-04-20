@@ -1,0 +1,70 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    overflow: hidden;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    overflow: hidden;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #554348;
+    color: #8C9A9E;
+    height: 100%;
+    width: 100%;
+		font-size: 2.0em;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+#error {
+	color: red;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+}
+#chosen {
+    color: #D4F5F5;
+}
+.displayContainer {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.centerPseudo {
+    display: inline-block;
+    text-align: center;
+}
+.centerPseudo::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0px;
+}
