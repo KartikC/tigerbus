@@ -107,8 +107,8 @@ var times_province = [
     [24, 59],
     [25, 24]
 ];
-var province = ["The Province", [43.086581, -77.656322], times_province];
-var gleason = ["Gleason Circle", [43.082950, -77.675816], times_gleason];
+var province = ["The Province", [43.086276, -77.655503], times_province];
+var gleason = ["Gleason Circle", [43.082889, -77.675885], times_gleason];
 var places = [province, gleason];
 
 function distance(a, b) {
