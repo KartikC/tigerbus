@@ -166,8 +166,8 @@ function generateDivs(chosenIndex) {
         if (places.hasOwnProperty(i)) {
             var block = document.createElement('div');
             block.className = 'block';
-            if(i === chosenIndex) {
-              block.id = 'chosen';
+            if (i === chosenIndex) {
+                block.id = 'chosen';
             }
             var name = document.createElement('span');
             name.className = 'name';
@@ -203,7 +203,7 @@ function showPosition(position) {
             }
         }
     }
-    generateDivs(i);
+    generateDivs(bestIndex);
 }
 
 function showError(error) {
